@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{2BED48A3-778B-4920-7090-F3348A5E8FD6}") = "KatamariAssignment", "Assembly-CSharp-firstpass-vs.csproj", "{4494CB25-031E-55C4-8F19-A01468C11566}"
+EndProject
 Project("{2BED48A3-778B-4920-7090-F3348A5E8FD6}") = "KatamariAssignment", "Assembly-CSharp-vs.csproj", "{329976FB-0FAE-5E36-2000-0C3E185A9634}"
 EndProject
 Global
@@ -9,6 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4494CB25-031E-55C4-8F19-A01468C11566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4494CB25-031E-55C4-8F19-A01468C11566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4494CB25-031E-55C4-8F19-A01468C11566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4494CB25-031E-55C4-8F19-A01468C11566}.Release|Any CPU.Build.0 = Release|Any CPU
 		{329976FB-0FAE-5E36-2000-0C3E185A9634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{329976FB-0FAE-5E36-2000-0C3E185A9634}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{329976FB-0FAE-5E36-2000-0C3E185A9634}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -17,7 +23,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-							GlobalSection(MonoDevelopProperties) = preSolution
+													GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

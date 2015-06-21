@@ -55,14 +55,21 @@
      <Compile Include="Assets\Asset Store\LeviMoore\Roll The Ball\Script\Platform.cs" />
      <Compile Include="Assets\Asset Store\LeviMoore\Roll The Ball\Script\Teleporter.cs" />
      <Compile Include="Assets\Asset Store\LeviMoore\Roll The Ball\Script\TextureHelper.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\MenuController.cs" />
      <Compile Include="Assets\Scripts\MusicScript.cs" />
      <Compile Include="Assets\Scripts\Scenes.cs" />
      <None Include="Assets\Asset Store\LeviMoore\Roll The Ball\Credits.txt" />
      <None Include="Assets\Asset Store\LeviMoore\NeedHelp.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{4494CB25-031E-55C4-8F19-A01468C11566}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
